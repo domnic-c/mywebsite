@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(china.jpg) fixed center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* this is very  useful */
+    background-size: cover;
+    
+    background-attachment: fixed;
+    /* this is good if scrolling and want
+    background to remain there */
+    margin: 0;
+    
+   
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 10px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+    /* this must be at the bottom */
+    margin:0 auto; /* Centers the box horizontally */
+}
+
+
+img {
+    border-radius: 10px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+    
+}
+
+.video-container{
+    border-radius: 10px;
+    border: 2px solid rgb(57, 73, 73);;
+    padding: 10px;
+    background: linear-gradient(152deg, rgba(86,111,111,1) 0%, rgba(51,67,72,1) 67%, rgba(0,2,2,1) 100%);
+    /* make it fit */
+    display: inline-block;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.information{
+    background-color: aqua;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
